@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BEM Example</title>
+    <style>
+        /* Normal paragraph style */
+        
+        .paragraph {
+            font-size: 16px;
+            line-height: 1.5;
+            background-color: rgb(238, 226, 226);
+            float: right;
+            width: 33%;
+            height: 200px;
+        }
+        /* Highlighted paragraph style */
+        
+        .paragraph--highlighted {
+            font-weight: bold;
+            background-color: greenyellow;
+            float: left;
+            width: 33%;
+            height: 200px;
+        }
+        /* Large paragraph style */
+        
+        .paragraph--large {
+            font-size: 30px;
+            margin-top: 25px;
+            background-color: aquamarine;
+            width: 33%;
+            height: 200px;
+            margin: 0 auto;
+        }
+        
+        p:hover {
+            background-color: red;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>BEM Example</h1>
+    <div class="paragraph" id="p1">
+        <p>This is a paragraph.</p>
+    </div>
+
+    <div class="paragraph--highlighted" id="p2">
+        <p>This paragraph is highlighted</p>
+    </div>
+
+    <div class="paragraph--large " id="p3">
+        <p>This paragraph is styled to be large</p>
+    </div>
+</body>
+
+</html>

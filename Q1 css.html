@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS</title>
+
+    <!-- Internal CSS -->
+    <style>
+        /* Internal CSS comment */
+        
+        .internal-div {
+            background-color: rgb(8, 213, 22);
+            padding: 10px;
+        }
+        /*using css to target thesame element with inlineinternal and external*/
+        
+        .inline-div {
+            background-color: blue;
+        }
+    </style>
+
+    <!-- External CSS -->
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <h1>Using css elements </h1>
+
+    <!-- Inline CSS -->
+    <div style="background-color: rgb(24, 224, 184); padding: 10px;" class="inline-div">
+        <p>This is an inline styled div</p>
+    </div>
+
+    <!-- Internal CSS -->
+    <div class="internal-div">
+        <p>This is styled using internal CSS</p>
+    </div>
+
+    <!-- External CSS -->
+    <div class="external-div">
+        <p>This is styled using external CSS</p>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,13 @@
+/* External CSS comment */
+
+.external-div {
+    background-color: lightcoral;
+    padding: 10px;
+}
+
+
+/*using css to target thesame element with inlineinternal and external*/
+
+.inline-div {
+    background-color: brown;
+}
